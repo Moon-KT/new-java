@@ -1,0 +1,27 @@
+// Lớp Err
+public class Err{
+    // Các thuộc tính
+    private String title;
+    private String mess;
+    
+    // Phương thức
+    public void inputData(String tt, String m){
+        title = tt;
+        mess = m;
+    }
+    
+    public void output(){
+        System.out.println("Err " + title + ": " + mess);
+    }
+}
+
+ // Hàm main
+ public static void main(String args[]){
+     // Khai báo, khởi tạo đối tượng
+     Err x = new Err();
+     
+     // Tác động vào đối tượng
+     x.input("Error 2001", "- Lỗi này tạm thời chưa có nội dung");
+     x.output();
+ }
+
