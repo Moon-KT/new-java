@@ -1,0 +1,10 @@
+// <access modifier> class <ClassName>{}
+// access modifier: private, protected, default, public
+
+public class A{
+    // Các trường lưu dữ liệu cho mỗi đối tượng:
+    private int y, z;
+    
+    // Tham chiếu đến đối tượng x từ lớp B
+    private B x;
+}
